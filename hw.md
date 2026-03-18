@@ -41,7 +41,7 @@ Hint:
 Starter code:
 
 ```python
-rate    = [2,    3,    9,      7,     11 ]
+rate    = [   2,     3,    9,     7,   11]
 symbols = ["🍒", "🍋", "⭐", "🔔", "💎"]
 money = 50
 print("=== SLOT MACHINE === \n")
@@ -117,12 +117,6 @@ Rules:
 
 * Ignore duplicates when counting
 * Assume `n` is valid (you don’t need to handle errors)
-
-Hints:
-
-* You can remove duplicates using a set
-* Then sort the numbers
-* Access the correct index
 
 Good luck
 
