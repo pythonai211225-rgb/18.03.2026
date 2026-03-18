@@ -2,7 +2,7 @@
 
 Solve at least one question (recommended: try all) using Python code
 
-## Question 1 – Safe Code
+## 🔐 Question 1 – Safe Code
 
 You are given a secret code:
 
