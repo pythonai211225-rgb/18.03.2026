@@ -2,7 +2,38 @@
 
 Solve at least one question (recommended: try all) using Python code
 
-## 🔐 Question 1 – Safe Code
+## Question 1 – N-th Biggest Number
+
+Write a function that gets:
+
+* A list of numbers (with duplicates)
+* A number `n`
+
+The function should return the **n-th biggest unique number** in the list
+
+Example:
+
+`[88, 100, 90, 95, 95, 97, 97, 99, 97, 99] , n = 4`
+
+Result:
+
+`95`
+
+Explanation:
+
+Unique sorted values (descending):
+
+`100, 99, 97, 95, 90, 88`
+
+The 4th biggest number is `95`
+
+Rules:
+
+* Ignore duplicates when counting
+* Assume `n` is valid (you don’t need to handle errors)
+
+
+## 🔐 Question 2 – Safe Code
 
 You are given a secret code:
 
@@ -36,7 +67,7 @@ Hint:
 * Use an index variable to track your position in the code
 * Reset the index to 0 when there is a mistake
 
-## Question 2 – Casino Slot Machine
+## Question 3 -- BONUS – Casino Slot Machine
 
 Starter code:
 
@@ -87,36 +118,6 @@ Hints:
 * Use `random.choice` or `random.randint`
 * Keep track of symbol indexes to match the correct rate
 * First check for 3 matches, then for 2 matches
-
-## Question 3 – N-th Biggest Number
-
-Write a function that gets:
-
-* A list of numbers (with duplicates)
-* A number `n`
-
-The function should return the **n-th biggest unique number** in the list
-
-Example:
-
-`[88, 100, 90, 95, 95, 97, 97, 99, 97, 99] , n = 4`
-
-Result:
-
-`95`
-
-Explanation:
-
-Unique sorted values (descending):
-
-`100, 99, 97, 95, 90, 88`
-
-The 4th biggest number is `95`
-
-Rules:
-
-* Ignore duplicates when counting
-* Assume `n` is valid (you don’t need to handle errors)
 
 Good luck
 
