@@ -84,7 +84,7 @@ Rules:
 
 * Each spin shows 3 random symbols
 * The player starts with `50` money
-* Before each spin, ask the user how much they want to bet
+* Before each spin, ask the user how much they want to `bet`
 * The bet must be between `1` and the current money
 * The user can choose to quit the game
 * Update the player’s money after each round
